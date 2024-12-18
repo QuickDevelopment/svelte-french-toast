@@ -1,5 +1,5 @@
 {
-	"name": "svelte-french-toast",
+	"name": "@quickdevelopment/svelte-french-toast",
 	"version": "1.2.0",
 	"description": "Buttery smooth Svelte toasts. Lightweight, customizable, and beautiful by default.",
 	"keywords": [
@@ -35,7 +35,6 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"package": "svelte-kit sync && svelte-package && publint && cp README.md header-image.png dist/",
 		"prepare": "svelte-kit sync",
-		"prepublishOnly": "pnpm run package",
 		"preview": "vite preview",
 		"test": "playwright test",
 		"test:unit": "vitest"
@@ -44,7 +43,7 @@
 		"svelte-writable-derived": "^3.1.0"
 	},
 	"peerDependencies": {
-		"svelte": "^3.57.0 || ^4.0.0"
+		"svelte": "^3.57.0 || ^4.0.0 || ^5.0.0"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.31.2",
