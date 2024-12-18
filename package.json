@@ -10,7 +10,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kbrgl/svelte-french-toast.git"
+		"url": "https://github.com/QuickDevelopment/svelte-french-toast"
 	},
 	"license": "MIT",
 	"author": "Kabir Goel",
